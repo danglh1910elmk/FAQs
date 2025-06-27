@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu-checkbox:checked ~ .question {
+    color: red;
+}
+
+.menu-checkbox:checked ~ .answer {
+    display: block;
+}
+
+.answer {
+    display: none;
+}
